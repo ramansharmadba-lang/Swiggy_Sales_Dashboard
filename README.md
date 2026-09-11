@@ -2,6 +2,10 @@
 
 This project analyzes Swiggy order data (1.97L+ records) using Excel & Python.
 
+![Tool](https://img.shields.io/badge/TOOL-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Project](https://img.shields.io/badge/PROJECT-Dashboard-0B3B60?style=for-the-badge)
+![Domain](https://img.shields.io/badge/DOMAIN-Food%20Delivery-C8102E?style=for-the-badge)
+
 ## 🖼️ Dashboard Preview
 
 ![Swiggy Sales Dashboard](Swiggy_Dasboard.png)
