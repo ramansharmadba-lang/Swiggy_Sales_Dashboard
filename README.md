@@ -2,32 +2,49 @@
 
 This project analyzes Swiggy order data (1.97L+ records) using Excel & Python.
 
-## 📊 KPIs (like Dominos dashboard)
-- **Total Revenue:** ₹5.30 Cr
-- **Total Orders:** 1,97,430
-- **Average Order Value:** ₹268.5
-- **Veg vs Non-Veg:** 60.4% Veg
-- **Top City:** Bengaluru
+# Swiggy Sales Dashboard
 
-## 📈 Visuals (Boxed Pie Charts Included)
-1. **Monthly Sales Trend** - Revenue by month
-2. **Sales by Food Category** - Veg / Non-Veg / Egg share (90° start, boxed)
-3. **Top 5 Cities by Revenue**
-4. **Orders by Day of Week** - Peak on Saturday
-5. **Order Status Share** - NotApproved 75.8% (with bold labels)
+An Excel-based analytics dashboard built from Swiggy food-delivery order data, using PivotTables and charts to surface sales trends across time, geography, and food category.
 
-## 🛠️ Tech Stack
-- Python (pandas) for cleaning
-- Excel for Dashboard (like Dominos excel/Dominos_Sales_Dashboard.xlsx)
-- Matplotlib for Boxed Visuals with 90° startangle
+## 📊 What's Inside
 
-## 📁 Repo Structure
-/data - Raw Swiggy Data
-/excel - Final Dashboard
-/images - Boxed charts
-/docs - Business Questions
+The workbook (`Swiggy_Final_Dashboard.xlsx`) is organized into the following sheets:
+
+| Sheet | Description |
+|---|---|
+| **Dashboard** | Consolidated visual dashboard combining all key metrics |
+| **Summary** | High-level summary view |
+| **Swiggy Data** | Raw, order-level dataset (state, city, restaurant, dish, price, rating, food type, order date, etc.) |
+| **Monthly Trend** | Sales trend by month |
+| **Daily Trend** | Sales trend by day of week |
+| **Total Sales - Food Type** | Sales split between Veg / Non-Veg |
+| **Top 5 Cities Sales** | Highest-performing cities by sales |
+| **State Wise** | Sales breakdown by state |
+
+## 🧾 Data Fields
+
+The raw dataset includes: `State`, `City`, `Month`, `Order Date`, `Day`, `Quarter`, `Restaurant Name`, `Location`, `Category`, `Dish Name`, `Price (INR)`, `Rating`, `Rating Count`, `Food Type`.
 
 ## 🔍 Key Insights
-- Bengaluru generates 28% revenue
-- Saturday = Highest orders
-- 75.8
+
+- Sales trends broken down by month and day of week
+- Veg vs. Non-Veg sales comparison
+- Top 5 cities driving the highest order value
+- State-wise sales distribution across India
+
+## 🛠️ Tools Used
+
+- Microsoft Excel (PivotTables, PivotCharts, Dashboard design)
+
+## 📂 How to Use
+
+1. Download `Swiggy_Final_Dashboard.xlsx`
+2. Open in Microsoft Excel (or a compatible spreadsheet tool)
+3. Explore the `Dashboard` sheet for the consolidated view, or dig into individual pivot sheets for detailed breakdowns
+4. Raw data is available in the `Swiggy Data` sheet if you want to build your own pivots/charts
+
+## 📌 Note
+
+This project uses sample/practice data for learning data analysis and dashboarding in Excel; it does not reflect actual Swiggy business figures.
+
+
