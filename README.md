@@ -2,6 +2,11 @@
 
 This project analyzes Swiggy order data (1.97L+ records) using Excel & Python.
 
+## 🖼️ Dashboard Preview
+
+![Swiggy Sales Dashboard](dashboard_preview.png)
+
+
 # Swiggy Sales Dashboard
 
 An Excel-based analytics dashboard built from Swiggy food-delivery order data, using PivotTables and charts to surface sales trends across time, geography, and food category.
