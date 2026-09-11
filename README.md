@@ -4,7 +4,7 @@ This project analyzes Swiggy order data (1.97L+ records) using Excel & Python.
 
 ## 🖼️ Dashboard Preview
 
-![Swiggy Sales Dashboard](dashboard_preview.png)
+![Swiggy Sales Dashboard](Swiggy_Dasboard.png)
 
 
 # Swiggy Sales Dashboard
