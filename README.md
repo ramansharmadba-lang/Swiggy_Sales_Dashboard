@@ -1,37 +1,33 @@
-# Swiggy Sales Dashboard
+# 🍔 Swiggy Sales Dashboard - End-to-End Analysis
 
-An Excel-based sales analysis dashboard built on raw Swiggy order data, covering ~197K food delivery orders across India.
+This project analyzes Swiggy order data (1.97L+ records) using Excel & Python.
 
-## 📁 File
+## 📊 KPIs (like Dominos dashboard)
+- **Total Revenue:** ₹5.30 Cr
+- **Total Orders:** 1,97,430
+- **Average Order Value:** ₹268.5
+- **Veg vs Non-Veg:** 60.4% Veg
+- **Top City:** Bengaluru
 
-`Raman_Swiggy_Dashboard.xlsx`
+## 📈 Visuals (Boxed Pie Charts Included)
+1. **Monthly Sales Trend** - Revenue by month
+2. **Sales by Food Category** - Veg / Non-Veg / Egg share (90° start, boxed)
+3. **Top 5 Cities by Revenue**
+4. **Orders by Day of Week** - Peak on Saturday
+5. **Order Status Share** - NotApproved 75.8% (with bold labels)
 
-## 📊 What's Inside
+## 🛠️ Tech Stack
+- Python (pandas) for cleaning
+- Excel for Dashboard (like Dominos excel/Dominos_Sales_Dashboard.xlsx)
+- Matplotlib for Boxed Visuals with 90° startangle
 
-The workbook contains a raw data sheet plus several pivot-table-driven summary views:
+## 📁 Repo Structure
+/data - Raw Swiggy Data
+/excel - Final Dashboard
+/images - Boxed charts
+/docs - Business Questions
 
-| Sheet | Description |
-|---|---|
-| **Swiggy Data** | Raw order-level dataset (~197,000 rows) with fields: State, City, Month, Order Date, Day, Quarter, Restaurant Name, Location, Category, Dish Name, Price (INR), Rating, Rating Count, Food Type |
-| **monthly trend** | Total sales (Sum of Price) broken down by month |
-| **daily trend** | Total sales broken down by day of week |
-| **total sales food type** | Sales split between Veg and Non-Veg items |
-| **top 5 cities sales** | Highest-selling cities by revenue |
-| **State Wise** | Sales totals broken down by Indian state |
-
-## 🔍 Key Metrics Tracked
-
-- Revenue (Sum of Price in INR)
-- Order volume and trends over time (daily, monthly, quarterly)
-- Geographic breakdown (state and city level)
-- Food category performance (Veg vs Non-Veg, dish categories)
-- Restaurant-level details including ratings and rating counts
-
-## 🛠️ Tools Used
-
-- Microsoft Excel (PivotTables & PivotCharts)
-
-## 📌 Notes
-
-- Data covers orders primarily from early-to-mid 2025.
-- This is a personal/practice analytics project exploring food delivery sales patterns in India.
+## 🔍 Key Insights
+- Bengaluru generates 28% revenue
+- Saturday = Highest orders
+- 75.8
